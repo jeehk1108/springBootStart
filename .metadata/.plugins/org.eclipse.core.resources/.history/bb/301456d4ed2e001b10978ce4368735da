@@ -1,0 +1,16 @@
+package org.zerock.persistence;
+
+import java.util.Collection;
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+import org.zerock.domain.Board;
+
+public interface BoardRepository extends CrudRepository<Board, Long> {
+
+	public List<Board> findBoardByTitle(String title);
+	
+	//게시물에서 user00 이라는 작성자의 모든 데이터를 구하기
+	public Collection<Board> findByWriter(String writer);
+
+}

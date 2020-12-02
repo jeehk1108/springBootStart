@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Nov 24 14:12:21 KST 2020
+org.eclipse.jst.jee.server\:boot02=C\:\\Users\\jhk\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\boot02
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\jhk\\.m2\\repository\\org\\springframework\\spring-web\\5.2.10.RELEASE\\spring-web-5.2.10.RELEASE.jar=C\:\\Users\\jhk\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\boot02\\WEB-INF\\lib\\spring-web-5.2.10.RELEASE.jar
